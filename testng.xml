@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="maven">
+  <test thread-count="5" name="Automation1">
+    <classes>
+      <class name="automation.maven.AppTest"/>
+      <class name="automation1.home"/>
+      <class name="automation1.Signup"/>
+      <class name="automation1.AllMobile"/>
+      <class name="automation1.Contact"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
